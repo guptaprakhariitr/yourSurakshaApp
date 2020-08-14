@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_marginTop="4dp"
+            android:layout_height="35dp"
+            android:background="#FFFFFF"
+            android:textAlignment="center"
+            app:title="Sign Up For Covid19 Positive Patients"
+            app:titleTextColor="#800080"
+            android:layout_marginBottom="40dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:id="@+id/namepositive"
+            android:padding="18dp"
+            android:textColorHint="#800080"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="phone no."
+            android:id="@+id/phnopositive"
+            android:inputType="number"
+            android:padding="18dp"
+            android:textColorHint="#800080"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="email"
+            android:id="@+id/emailpositive"
+            android:padding="18dp"
+            android:textColorHint="#800080"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Aadhaar no."
+            android:id="@+id/aadharpositive"
+            android:inputType="number"
+            android:padding="18dp"
+            android:textColorHint="#800080"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Age"
+            android:id="@+id/agepositive"
+            android:inputType="number"
+            android:padding="18dp"
+            android:textColorHint="#800080"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Blood Group"
+            android:id="@+id/bloodgrouppositive"
+            android:padding="18dp"
+            android:textColorHint="#800080"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload Your Covid Test Report"
+            android:layout_margin="15dp"
+            android:id="@+id/uploadimagepositive"
+            android:padding="18dp"
+            android:textColorHint="#800080"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/reportpositive"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose a hopital to request"
+            android:textSize="20sp"
+            android:padding="18dp"
+            />
+        <Spinner
+            android:id="@+id/spinnerpositive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Create Password"
+            android:id="@+id/passpositive"
+            android:inputType="textPassword"
+            android:layout_margin="10dp"
+            android:padding="18dp"
+            android:textColorHint="#800080"
+            />
+        <Button
+            android:id="@+id/applypositive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Apply For Monitoring"
+            android:textColor="#971A9F"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+</ScrollView>
