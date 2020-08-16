@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/heading"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_marginTop="4dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Profile"
+        android:textSize="32dp"
+        android:padding="10dp"
+        android:textColor="#800080"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+
+    >
+        <TextView
+            android:id="@+id/name1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="#145a32"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:text="Name: "
+             />
+        <TextView
+            android:id="@+id/name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:padding="5dp"
+            android:layout_toRightOf="@+id/name1"
+            android:textSize="20dp"
+             />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        >
+        <TextView
+            android:id="@+id/age1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="#145a32"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:text="Age: "
+            />
+        <TextView
+            android:id="@+id/age2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:padding="5dp"
+            android:layout_toRightOf="@+id/age1"
+            android:textSize="20dp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        >
+        <TextView
+            android:id="@+id/phone1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="#145a32"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:text="Phone no: "
+            />
+        <TextView
+            android:id="@+id/phone2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:padding="5dp"
+            android:layout_toRightOf="@+id/phone1"
+            android:textSize="20dp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        >
+        <TextView
+            android:id="@+id/email1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="#145a32"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:text="Email-id: "
+            />
+        <TextView
+            android:id="@+id/email2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:padding="5dp"
+            android:layout_toRightOf="@+id/email1"
+            android:textSize="20dp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        >
+        <TextView
+            android:id="@+id/bloodgrp1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="#145a32"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:text="Blood Group: "
+            />
+        <TextView
+            android:id="@+id/bloodgrp2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:padding="5dp"
+            android:layout_toRightOf="@+id/bloodgrp1"
+            android:textSize="20dp"
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        >
+        <TextView
+            android:id="@+id/type1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="#145a32"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:text="Type: "
+            />
+        <TextView
+            android:id="@+id/type2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:padding="5dp"
+            android:layout_toRightOf="@+id/type1"
+            android:textSize="20dp"
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        >
+        <TextView
+            android:id="@+id/aadhar1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="#145a32"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:text="Aadhar No: "
+            />
+        <TextView
+            android:id="@+id/aadhar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:padding="5dp"
+            android:layout_toRightOf="@+id/aadhar1"
+            android:textSize="20dp"
+            />
+
+    </RelativeLayout>
+</LinearLayout>
